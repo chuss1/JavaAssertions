@@ -8,7 +8,7 @@
 */build/
 */out/
 .DS_Store
-*/lib/*.jar
+*/app/lib/*.jar
 *.iml
 
 # Comment this out so that it is not accidentally committed.
