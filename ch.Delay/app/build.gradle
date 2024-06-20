@@ -6,6 +6,14 @@
  * User Manual available at https://docs.gradle.org/8.0.2/userguide/building_java_projects.html
  */
 
+// apply plugin: 'java'
+
+// group = 'ch'
+// version = '1.0.0'
+
+// description = 'This assertion adds a delay of X milliseconds to a policy. It effectively behaves as a sleep action during policy execution. It is intended be used for development and testing purposes only - not production.'
+// jar.baseName = 'DelayAssertion'
+
 plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
     id 'application'
@@ -28,8 +36,4 @@ dependencies {
 tasks.named('test') {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
-}
-
-jar {
-    archiveFileName = 'ch-Delay.jar'
 }
