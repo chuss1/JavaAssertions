@@ -25,12 +25,11 @@ dependencies {
     implementation files('lib/layer7-api-8.11.03.jar')
 }
 
-application {
-    // Define the main class for the application.
-    mainClass = 'ch.delay.App'
-}
-
 tasks.named('test') {
     // Use JUnit Platform for unit tests.
     useJUnitPlatform()
+}
+
+jar {
+    archiveFileName = 'ch-Delay.jar'
 }
